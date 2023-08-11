@@ -10,8 +10,10 @@
     "skipLibCheck": true,
     "esModuleInterop": true
   },
+  "include": ["/**/*.ts"],
+  "exclude": ["node_modules"],
   "ts-node": {
-    "experimentalSpecifierResolution": "node",
+    // "experimentalSpecifierResolution": "node",
     "transpileOnly": true,
     "esm": true,
     "compilerOptions": {
