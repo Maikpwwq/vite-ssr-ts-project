@@ -1,0 +1,110 @@
+{
+  "_chunk-4d04ce61.js": {
+    "file": "assets/chunks/chunk-4d04ce61.js"
+  },
+  "_chunk-9b1c70a0.js": {
+    "file": "assets/chunks/chunk-9b1c70a0.js"
+  },
+  "_chunk-b725f7b9.js": {
+    "file": "assets/chunks/chunk-b725f7b9.js",
+    "imports": [
+      "_chunk-4d04ce61.js"
+    ]
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.135_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "dynamicImports": [
+      "src/pages/index/about/index.page.tsx",
+      "src/pages/index/index.page.tsx",
+      "src/pages/index/renderer/_error.page.tsx",
+      "src/pages/index/renderer/_default.page.client.tsx",
+      "src/pages/index/renderer/_default.page.server.tsx?extractAssets&lang.tsx"
+    ],
+    "file": "assets/entries/entry-server-routing.6a95c2c7.js",
+    "imports": [
+      "_chunk-9b1c70a0.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.135_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.135_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "dynamicImports": [
+      "src/pages/index/about/index.page.tsx",
+      "src/pages/index/index.page.tsx",
+      "src/pages/index/renderer/_error.page.tsx",
+      "src/pages/index/renderer/_default.page.client.tsx",
+      "src/pages/index/renderer/_default.page.server.tsx?extractAssets&lang.tsx"
+    ],
+    "file": "assets/entries/entry-client-routing.8a63d5a7.js",
+    "imports": [
+      "_chunk-9b1c70a0.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.135_vite@4.4.9/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+  },
+  "src/pages/index/about/index.page.css": {
+    "file": "assets/static/index.page.f1aef519.css",
+    "src": "src/pages/index/about/index.page.css"
+  },
+  "src/pages/index/about/index.page.tsx": {
+    "css": [
+      "assets/static/index.page.f1aef519.css"
+    ],
+    "file": "assets/entries/src_pages_index_about_index.page.479e3e07.js",
+    "imports": [
+      "_chunk-4d04ce61.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/index/about/index.page.tsx"
+  },
+  "src/pages/index/index.page.tsx": {
+    "file": "assets/entries/src_pages_index_index.page.efbcaef0.js",
+    "imports": [
+      "_chunk-4d04ce61.js",
+      "_chunk-b725f7b9.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/index/index.page.tsx"
+  },
+  "src/pages/index/renderer/_default.page.client.tsx": {
+    "assets": [
+      "assets/static/logo.bebe2e90.svg"
+    ],
+    "file": "assets/entries/src_pages_index_renderer_default.page.client.144cc694.js",
+    "imports": [
+      "_chunk-4d04ce61.js",
+      "_chunk-b725f7b9.js",
+      "src/pages/index/renderer/_default.page.server.tsx?extractAssets&lang.tsx"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/index/renderer/_default.page.client.tsx"
+  },
+  "src/pages/index/renderer/_default.page.server.tsx?extractAssets&lang.css": {
+    "file": "assets/static/default.page.server.d4835ae9.css",
+    "src": "src/pages/index/renderer/_default.page.server.tsx?extractAssets&lang.css"
+  },
+  "src/pages/index/renderer/_default.page.server.tsx?extractAssets&lang.tsx": {
+    "css": [
+      "assets/static/default.page.server.d4835ae9.css"
+    ],
+    "file": "assets/entries/src_pages_index_renderer_default.page.server.extractAssets.334717de.js",
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/index/renderer/_default.page.server.tsx?extractAssets&lang.tsx"
+  },
+  "src/pages/index/renderer/_error.page.tsx": {
+    "file": "assets/entries/src_pages_index_renderer_error.page.9b14c43c.js",
+    "imports": [
+      "_chunk-4d04ce61.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/pages/index/renderer/_error.page.tsx"
+  },
+  "src/pages/index/renderer/logo.svg": {
+    "file": "assets/static/logo.bebe2e90.svg",
+    "src": "src/pages/index/renderer/logo.svg"
+  }
+}
