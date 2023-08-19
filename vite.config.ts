@@ -17,6 +17,7 @@ if (isProd) {
       "@mui/icons-material",
       "@mui/material",
       "@mui/utils",
+      'react-bootstrap',
     ]
   );
 }

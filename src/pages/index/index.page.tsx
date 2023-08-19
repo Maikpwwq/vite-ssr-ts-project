@@ -1,9 +1,13 @@
 import { Counter } from './Counter'
-import Button from '@mui/material/Button'
+// import Button from '@mui/material/Button'
+import Button from 'react-bootstrap/Button';
 
 export { Page }
 
 function Page() {
+  const handleClick = () => {
+    console.log("click");
+  };
   return (
     <>
       <h1>Welcome</h1>
@@ -14,7 +18,7 @@ function Page() {
           Interactive. <Counter />
         </li>
       </ul>
-      <Button>
+      <Button onClick={handleClick}>
         Navigate
       </Button>
     </>
